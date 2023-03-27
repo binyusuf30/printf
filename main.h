@@ -3,7 +3,6 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
-B
 
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
@@ -115,5 +114,5 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
-#endif
+#endif /* MAIN_H */
 
